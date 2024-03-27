@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+ *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+
+ }
+
+ a{
+font-size: 15px;
+font-weight: 400;
+text-align: center;
+line-height: 21px;
+margin-right: 15px;
+cursor: pointer;
+color: #17233d;
+}
+
+.sign-up{
+   background-color:#6fbf44;
+   border:1px solid #4cb538;
+   border-radius: 6px;
+   width:124px ;
+   height:51px ;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+   letter-spacing: 1px;
+   color: #ffffff;
+   border: none;
+   
+   }
+   img{
+      margin: auto;
+      text-align: center;
+      padding-right: 100px;
+   }
+section{
+   display: inline-block;
+   margin-left: 85px;
+   width: 555px;
+
+}
+
+  h1{
+color: #161a49;
+font-size: 62px;
+line-height: 82px;
+letter-spacing: 0.5961538553237915px;
+  }
+
+p{
+
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 33px;
+   letter-spacing: 0.5px;
+   color: #4b505a;
+   margin-top:47px ;
+   margin-bottom: 55px;
+}
+
+.button-learn-more{
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 1px;
+background: transparent;
+color: #6fbf44;
+border: none;
+}
+
+@media screen and (max-width:900px){
+   a{
+      display: none;
+   }
+
+.sign-up{
+   margin-left: 100px;
+}
+img{
+   position: static;
+
+}
+
+h1{
+   margin-right: 10px;
+   width: 10px;
+}
+
+.button-learn-more{
+   margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+   
+
+
+
+
+
